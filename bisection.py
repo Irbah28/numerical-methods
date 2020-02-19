@@ -9,23 +9,25 @@ def e(n):
     e = 0.0
     for i in range(0, n + 1):
         e = e + (1/factorial(i))
-#    print("iteration -", i, " ", e)
-
     return e
 #print(e(10))
 
 def f(x):
-    return (e(10)**x) - (5*(x)**2)
-#    return(x**3 - 2*(x)**2 - 5)        
+#    return (e(10)**x) - (5*(x)**2)
+#    return(x**3 - 2*(x)**2 - 5)
+    return (x**3 - x - 2)
 
 EPSILON1 = 0.00001;
 EPSILON2 = 0.000001;
 
-a = 0
-b = 1
+#a = 0
+#b = 1
 
 #a = 2
 #b = 3
+
+a = 1
+b = 2
 
 #fx = e(10)** a - (5*(a)**2)
 
