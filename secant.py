@@ -18,20 +18,24 @@ def f(x):
 
 epsilon = 0.00001
 
-x0 = 1
-x1 = 2
-
-x0 = 3
-x1 = 4
-
-x0 = 2
-x1 = 4
-
-
+'''
+x = 4
 x_before = 0
-
 x0 = 2
 x1 = 4
+
+
+x = 4
+x_before = 0
+x0 = 2
+x1 = 4
+
+'''
+x = 4
+x_before = 0
+x0 = 2
+x1 = 4
+
 
 i = 0
 while (abs(x - x_before) > epsilon):
