@@ -12,21 +12,21 @@ def e(n):
     return e
 
 def f(x):
-    return(e(10)**x -5*x**2)
+#    return(e(10)**x -5*x**2)
 #    return (x**3 - 2*(x)**2 - 5)
-#    return (x**3 - x - 2)
+    return (x**3 - x - 2)
 
 
-def ff(x):
-    return(e(10)**x - 10*x)
-#    return (3*(x)**2 - 4*x)
-#    return (3*(x)**2 - x)
+def g(x):
+#    return ((e(10)**x)/5)**(0.5)
+#    return (2*(x)**2 + 5)**(1/3)
+    return (x+2)**(1/3)
 
 epsilon = 0.00001
 
-x = 1
+#x = 1
 #x = 4
-#x = 2
+x = 2
 
 x_before = 0
 
